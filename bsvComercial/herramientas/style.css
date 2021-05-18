@@ -1,0 +1,160 @@
+body {
+    background-color: dimgray;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.entrar {
+    position: absolute;
+    top: 325px;
+    left: 260px;
+    background-color: rgb(106, 255, 118);
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.formularos {
+    position: absolute;
+    height: 40%;
+    border-radius: 20px;
+    border: solid 2px;
+    background: rgba(250, 250, 250, 0.493);
+    left: 330px;
+}
+
+.bienvenida1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 400px;
+}
+
+.nombre_de_usuario {
+    position: relative;
+    left: 130px;
+    width: 56%;
+    height: 10%;
+    font-size: 100%;
+}
+
+.correo {
+    position: relative;
+    left: 130px;
+    width: 56%;
+    height: 10%;
+    top: 90px;
+    font-size: 100%;
+}
+
+.contrasena {
+    position: relative;
+    left: 130px;
+    width: 56%;
+    height: 10%;
+    top: 190px;
+    font-size: 100%;
+}
+
+
+/*parte responsive*/
+
+@media (max-width: 400px) {
+    .formularos {
+        width: 95%;
+        position: absolute;
+        height: 40%;
+        left: 10px;
+    }
+    .bienvenida1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 100%;
+    }
+    .nombre_de_usuario {
+        position: relative;
+        margin-top: 20px;
+        left: 80px;
+        width: 56%;
+        height: 10%;
+        font-size: 100%;
+    }
+    .correo {
+        position: relative;
+        margin-top: -50px;
+        left: 80px;
+        width: 56%;
+        height: 10%;
+        font-size: 100%;
+    }
+    .contrasena {
+        position: relative;
+        margin-top: -90px;
+        left: 80px;
+        width: 56%;
+        height: 10%;
+        font-size: 100%;
+    }
+    .entrar {
+        position: absolute;
+        top: 190px;
+        left: 135px;
+        background-color: rgb(106, 255, 118);
+        outline: none;
+        border: none;
+        width: 80px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    body {
+        background-color: dimgray;
+    }
+}
+
+.setalles1 {
+    max-width: 240px;
+    border: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.error_mensaje {
+    position: absolute;
+    left: 530px;
+    z-index: 5;
+    top: 200px;
+    font-size: 20px;
+    font-family: arial;
+    background-color: red;
+}
+
+@media (max-width:450px) {
+    .setalles1 {
+        max-width: 240px;
+        border: none;
+        top: 250px;
+        position: relative;
+        outline: none;
+    }
+    .error_mensaje {
+        position: absolute;
+        left: 95px;
+        z-index: 5;
+        top: 130px;
+        font-size: 20px;
+        font-family: arial;
+        background-color: red;
+    }
+}
+
+.todos_requeridos {
+    position: relative;
+    left: 31.5%;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    padding-left: 100px;
+    background-color: #161212;
+}

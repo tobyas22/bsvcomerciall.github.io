@@ -1,0 +1,594 @@
+@media screen and (max-width: 1200px) {
+    .posts {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.links_de_editar_info {
+    text-decoration: none;
+    color: #0011ff;
+}
+
+.links_de_editar_info:hover {
+    color: #0051ff;
+    text-decoration: wavy;
+}
+
+.login_register {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 40px;
+    left: 0px;
+    top: 2px;
+}
+
+.entrar_registro {
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+}
+
+.button_de_info_cuenta {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    top: -5px;
+}
+
+.ctn_info_de_cuenta {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+    left: 1200px;
+}
+
+.portada-arriva {
+    box-shadow: 0 4px 25px -22px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19%;
+    box-shadow: 0 18px 25px -22px black;
+    z-index: 10;
+}
+
+.texto-deportada {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-de-arriva {
+    position: absolute;
+    display: flex;
+}
+
+.menus-de-arriva {
+    padding: auto;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul {
+    padding-left: 900px;
+    margin-top: -160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul li {
+    height: 100%;
+    margin: -29px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bienvenidos {
+    justify-content: center;
+    z-index: 1;
+}
+
+.menu-seleted {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-seleted:hover {
+    background-color: aquamarine;
+    color: rgb(51, 255, 0);
+}
+
+.menus-listas a {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: rgb(78, 78, 78);
+    text-rendering: optimizeSpeed;
+    font-style: italic;
+    font-family: Arial;
+    max-height: 50px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.menus-listas a:hover {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.contenido-body {
+    border-radius: 23px;
+    position: absolute;
+    height: 100%;
+    left: 180px;
+    padding-left: 100px;
+    width: 70%;
+    top: 220px;
+    background-color: rgb(129, 129, 129);
+    box-shadow: 20 4px 25px -22px black;
+}
+
+.bsv-logo {
+    position: absolute;
+    width: 300px;
+    height: 260px;
+}
+
+
+/*desde aqui se trata de el escrito */
+
+.ctn-bienvenida {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(78, 78, 78);
+}
+
+.texto-1 {
+    font-family: arial;
+}
+
+.servicios {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.preguntas {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+}
+
+@media (max-width: 1220px) {
+    .header-content,
+    .container-footer footer {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .portada-arriva {
+        box-shadow: 0 4px 25px -22px black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 19%;
+        background: #fff;
+        box-shadow: 0 18px 25px -22px black;
+        z-index: 10;
+    }
+    .menus-de-arriva ul li {
+        height: 100%;
+        margin: -29px 3px;
+        left: -690px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+    .menus-de-arriva ul li a {
+        font-size: 10px;
+    }
+    .contenido-body {
+        border-radius: 10px;
+        position: absolute;
+        height: 1150px;
+        width: 95%;
+        padding: 24px;
+        left: 8px;
+        top: 140px;
+        background-color: rgb(187, 187, 187);
+    }
+    .login_register {
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        top: 0px;
+        left: 0px;
+    }
+    .button_de_info_cuenta {
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        background: none;
+        border: none;
+        border-radius: 50%;
+        top: -5px;
+    }
+    .ctn_info_de_cuenta {
+        position: absolute;
+        z-index: 99;
+        width: 50px;
+        height: 40px;
+        top: 10px;
+        left: 320px;
+    }
+    .ctn-bienvenida {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(78, 78, 78);
+    }
+    .bsv-logo {
+        height: 200px;
+        width: 260px;
+        top: 20px;
+    }
+    .entrar_registro {
+        position: absolute;
+        left: 310px;
+        top: 0px;
+    }
+}
+
+.txt1_info {
+    font-size: 30px;
+    font-family: arial;
+}
+
+.txt1_info:hover {
+    font-size: 30.1px;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.logo_bsv_info img {
+    width: 200px;
+}
+
+.ctn_infos_txt {
+    font-size: 30px;
+    font-family: arial;
+}
+
+.nombre_infot {
+    text-transform: capitalize;
+}
+
+.serrar_v_m {
+    position: relative;
+    left: 120px;
+    margin: 20px 20px;
+    width: 80px;
+    height: 25px;
+    border: solid 1px black;
+    background-color: rgb(236, 27, 27);
+}
+
+.desplegar_info {
+    position: absolute;
+    left: 93%;
+    background: none;
+    border: none;
+    top: 1px;
+    display: block;
+    outline: none;
+    z-index: 20;
+    border-radius: 100%;
+}
+
+.btn_des_info {
+    position: absolute;
+    background: none;
+    border: none;
+    top: 1px;
+    display: block;
+    outline: none;
+    z-index: 9090;
+    border-radius: 100%;
+}
+
+@media (max-width: 450px) {
+    .btn_des_info {
+        position: absolute;
+        left: 73%;
+        background: none;
+        border: none;
+        top: 1px;
+        display: block;
+        outline: none;
+        border-radius: 100%;
+    }
+    .txt1_info {
+        font-size: 30px;
+        font-family: arial;
+    }
+    .txt1_info:hover {
+        font-size: 30.1px;
+        font-family: arial;
+        text-decoration: underline;
+    }
+    .logo_bsv_info img {
+        width: 150px;
+    }
+    .ctn_infos_txt {
+        font-size: 19px;
+        font-family: arial;
+    }
+}
+
+html.pushbar_locked {
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.pushbar_locked .pushbar_main_content.pushbar_blur {
+    filter: blur(15px);
+}
+
+.pushbar_overlay {
+    z-index: -999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    will-change: opacity;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    background: #3c3442;
+}
+
+html.pushbar_locked .pushbar_overlay {
+    opacity: 0.8;
+    z-index: 1;
+}
+
+[data-pushbar-id] {
+    z-index: 1000;
+    position: fixed;
+    overflow-y: auto;
+    will-change: transform;
+    transition: transform 0.5s ease;
+    background: #fff;
+}
+
+[data-pushbar-direction="left"][data-pushbar-id],
+[data-pushbar-direction="right"][data-pushbar-id] {
+    top: 0;
+    width: 560px;
+    max-width: 650px;
+    height: 100%;
+}
+
+[data-pushbar-direction="top"][data-pushbar-id],
+[data-pushbar-direction="bottom"][data-pushbar-id] {
+    left: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+[data-pushbar-direction="left"][data-pushbar-id] {
+    left: 0;
+    transform: translateZ(0) translateX(-100%);
+}
+
+[data-pushbar-direction="right"][data-pushbar-id] {
+    right: 0;
+    transform: translateZ(0) translateX(100%);
+}
+
+[data-pushbar-direction="top"][data-pushbar-id] {
+    top: 0;
+    transform: translateZ(0) translateY(-100%);
+}
+
+[data-pushbar-direction="bottom"][data-pushbar-id] {
+    bottom: 0;
+    transform: translateZ(0) translateY(100%);
+}
+
+[data-pushbar-id].opened {
+    display: block;
+    transform: translateX(0px) translateY(0px);
+}
+
+.des_info {
+    z-index: 999;
+}
+
+@media (max-width: 450px) {
+    [data-pushbar-direction="left"][data-pushbar-id],
+    [data-pushbar-direction="right"][data-pushbar-id] {
+        top: 0;
+        width: 330px;
+        max-width: 650px;
+        height: 100%;
+    }
+}
+
+.ctn-indormacion-abajo {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    z-index: 11;
+    background-color: rgb(24, 24, 24);
+    height: 300px;
+}
+
+.logo2-bsv {
+    width: 247px;
+    left: 1000px;
+    position: relative;
+}
+
+.ctn-seguridad {
+    position: absolute;
+}
+
+.Terminos-de-uso {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 10px
+}
+
+.politica-de-privacidad {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: -110px
+}
+
+.propositos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: -264px
+}
+
+.informacion {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 200px;
+    left: -344px
+}
+
+.donde-estamos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 600px
+}
+
+.noticias {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: 470px
+}
+
+.indice-bsv {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: 413px;
+}
+
+@media (max-width:450px) {
+    .ctn-seguridad {
+        position: absolute;
+    }
+    .Terminos-de-uso {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 2px;
+        font-size: 14px;
+    }
+    .politica-de-privacidad {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        left: -107px;
+        top: 50px;
+        font-size: 14px;
+    }
+    .propositos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: -242px;
+        font-size: 14px;
+    }
+    .informacion {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 120px;
+        left: 4px
+    }
+    .donde-estamos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 50px;
+        left: 200px
+    }
+    .noticias {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 73px
+    }
+    .indice-bsv {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: 13px;
+    }
+    .logo2-bsv {
+        top: -17px;
+        width: 167px;
+        left: 100px;
+        position: relative;
+    }
+}

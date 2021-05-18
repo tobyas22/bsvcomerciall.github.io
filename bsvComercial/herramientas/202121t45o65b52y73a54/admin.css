@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.logo_bsv_1 {
+    width: 300px;
+}
+
+.texto_1 {
+    font-size: 40px;
+    font-family: arial;
+}
+
+.ctn_public {
+    position: relative;
+    min-height: 400px;
+    width: 800px;
+    left: 200px;
+    padding: 20px 20px;
+    margin-top: 100px;
+    border: solid 5px black;
+    top: 100px;
+}
+
+.ctn_imagen {
+    width: 100px;
+    position: relative;
+    display: flex;
+}
+
+.imagen_a {
+    width: 300px;
+}
+
+.informacion_contactos {
+    position: relative;
+}
+
+.informacion_contactos p {
+    font-size: 20px;
+}
+
+.informacion_contactos a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.detalles_articulo {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    width: 300px;
+}
+
+.emitido_por {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+}
+
+.nombre_a {
+    font-size: 50px;
+}
+
+.ctn_fecha {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+.emitido_por {
+    position: relative;
+    font-size: 30px;
+    width: 400px;
+}
+
+.informacion_a {
+    position: relative;
+    font-size: 20px;
+}
+
+.contenido_a {
+    position: relative;
+    font-size: 24px;
+}
+
+.contacto_a {
+    position: relative;
+    font-size: 20px;
+}

@@ -1,0 +1,803 @@
+.ctn_servicios_contenedor {
+    position: absolute;
+    top: 200px;
+    width: 99%;
+    background-color: rgb(94, 71, 37);
+}
+
+
+/*desde aqui los stilos de productos*/
+
+.nombre_de_servicio {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nombre_de_servicio button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    outline: none;
+    background-color: rgba(87, 87, 87, 0.918);
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.detalles_del_servicio {
+    background-color: black;
+    position: absolute;
+    left: 140px;
+    width: 560px;
+    height: 190px;
+    top: 0px;
+    border-top-right-radius: 20px;
+}
+
+.detalles_en_texto_de_servicio {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: arial;
+    margin-left: 5px;
+}
+
+.fecha_de_servicio {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+}
+
+.fecha_de_servicio button {
+    background-color: rgb(0, 238, 255);
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.disponivilidad_de_producto {
+    position: absolute;
+    top: 250px;
+    left: 140px;
+}
+
+.disponivilidad_de_producto button {
+    width: 90px;
+    outline: none;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(240, 255, 255, 0.822);
+}
+
+.parametros_de_servicio {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.parametros_de_servicio button {
+    max-width: 120px;
+    border-radius: 4px;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+}
+
+.link_servicios {
+    position: fixed;
+    left: 1070px;
+    top: 124px;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: rgb(78, 78, 78);
+    text-rendering: optimizeSpeed;
+    font-style: italic;
+    font-family: Arial;
+    max-height: 50px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+#link_servicios_seleted:hover {
+    background-color: aqua;
+}
+
+.ctn_contenedor_de_productos {
+    top: 170px;
+    display: inline-flex;
+    position: relative;
+    padding-left: 13px;
+    padding-top: 20px;
+    z-index: 5;
+}
+
+.resultado_de_procucto {
+    background-color: rgb(101, 124, 100);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 4px;
+    border-color: rgba(73, 104, 172, 0.753);
+    border-radius: 10px;
+    box-shadow: 12px 7px 3px rgb(66, 66, 66);
+}
+
+.precio_resultado button {
+    position: relative;
+    top: 41px;
+    left: 10px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.nombre_resultado button {
+    position: relative;
+    top: -2px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.estado_resultado button {
+    position: relative;
+    top: -17px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.detalles_resultado {
+    color: rgb(65, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+    height: 100px;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .ctn_servicios_contenedor {
+        position: absolute;
+        top: 170px;
+        width: 96%;
+        background-color: rgb(94, 71, 37);
+    }
+    .ctn_servicios {
+        margin-top: 50px;
+        margin-left: 0px;
+        position: relative;
+        left: 0px;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(58, 202, 29);
+        border-radius: 20px;
+        border: solid 10px;
+        border-color: black;
+        border: outset;
+    }
+    /*desde aqui los stilos de productos*/
+    .nombre_de_servicio {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .nombre_de_servicio button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        max-width: 60px;
+        outline: none;
+        background-color: rgba(87, 87, 87, 0.918);
+        outline: none;
+        border-radius: 8px;
+    }
+    .detalles_del_servicio {
+        background-color: black;
+        position: absolute;
+        left: 60px;
+        width: 240px;
+        height: 70px;
+        top: 0px;
+        border-top-right-radius: 20px;
+    }
+    .detalles_en_texto_de_servicio {
+        color: aliceblue;
+        font-size: 10px;
+        font-family: arial;
+        margin-left: 5px;
+    }
+    .fecha_de_servicio {
+        position: absolute;
+        left: 156px;
+        top: 75px;
+    }
+    .fecha_de_servicio button {
+        background-color: rgb(0, 238, 255);
+        border-radius: 8px;
+        outline: none;
+        font-size: 8px;
+        width: 130px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .disponivilidad_de_producto {
+        position: absolute;
+        top: 78px;
+        left: 70px;
+    }
+    .disponivilidad_de_producto button {
+        width: 100%;
+        height: 20px;
+        font-size: 10px;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgba(240, 255, 255, 0.822);
+    }
+    .parametros_de_servicio {
+        position: absolute;
+        top: 45px;
+        left: 0px;
+    }
+    .parametros_de_servicio button {
+        max-width: 59px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .posts {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+body {
+    background-color: rgba(163, 163, 163, 0.548);
+}
+
+.login_register {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+    left: 1200px;
+}
+
+.portada-arriva {
+    box-shadow: 0 4px 25px -22px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19%;
+    background: rgba(255, 255, 255, 0.836);
+    box-shadow: 0 18px 25px -22px black;
+    z-index: 10;
+}
+
+.texto-deportada {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-de-arriva {
+    position: absolute;
+    display: flex;
+}
+
+.menus-de-arriva {
+    padding: auto;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul {
+    padding-left: 900px;
+    margin-top: -160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul li {
+    height: 100%;
+    margin: -29px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bienvenidos {
+    justify-content: center;
+    z-index: 1;
+}
+
+.menu-seleted {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-seleted:hover {
+    background-color: aquamarine;
+    color: rgb(51, 255, 0);
+}
+
+.menus-listas a {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: rgb(78, 78, 78);
+    text-rendering: optimizeSpeed;
+    font-style: italic;
+    font-family: Arial;
+    max-height: 50px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.menus-listas a:hover {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.bsv-logo {
+    width: 300px;
+    height: 260px;
+}
+
+
+/*desde aqui se trata de el blog */
+
+
+/*desde aqui es el estylo de los productos*/
+
+.lista_de_productos {
+    position: absolute;
+    top: 200px;
+    width: 98%;
+    max-width: 99%;
+    background-color: rgb(64, 102, 59);
+    border-radius: 10px;
+}
+
+.resultado_de_procucto {
+    background-color: rgb(189, 189, 189);
+    width: 200px;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 19px;
+    box-shadow: 12px 9px 3px rgb(43, 63, 29);
+}
+
+.precio_resultado button {
+    position: relative;
+    top: 43px;
+    left: 10px;
+    color: rgb(56, 56, 56);
+    background-color: rgb(148, 148, 148);
+    outline: none;
+    border: none;
+    box-shadow: 12px 4px 3px black;
+}
+
+.nombre_resultado button {
+    position: relative;
+    top: 6px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    outline: none;
+    border: none;
+    box-shadow: 8px 4px 3px black;
+    background-color: rgb(136, 136, 136);
+}
+
+.estado_resultado button {
+    position: relative;
+    top: -15px;
+    left: 110px;
+    background-color: rgb(146, 146, 146);
+    outline: none;
+    border: none;
+    box-shadow: 12px 4px 3px black;
+}
+
+.detalles_resultado h2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.detalles_resultado {
+    height: 100px;
+}
+
+
+/*DESPLEGABLES*/
+
+.desplegable-hover-blog:hover {
+    transition: 0.5s;
+    background-color: rgba(66, 66, 66, 0.562);
+}
+
+.ctn-productos-desplegable1 {
+    z-index: 15;
+    list-style: none;
+    position: fixed;
+    top: 129px;
+    left: 1066px;
+}
+
+.ctn-productos-desplegable1 a {
+    position: absolute;
+    width: 92px;
+    color: rgb(44, 44, 44);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.ctn-productos-desplegable2 {
+    z-index: 15;
+    list-style: none;
+    position: fixed;
+    top: 156px;
+    left: 1058px;
+    width: 92px;
+    padding: 8px;
+}
+
+.ctn-productos-desplegable2 a {
+    position: absolute;
+    text-decoration: none;
+    width: 92px;
+    padding: 8px;
+    color: rgb(44, 44, 44);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+
+/* buscador de productos */
+
+.iocono_de_busqueda1 {
+    position: fixed;
+    outline: none;
+    border-radius: 20px;
+    background-color: green;
+    left: 852px;
+    top: 94px;
+}
+
+.ctn_buscador_de_productos {
+    position: fixed;
+    top: 92px;
+    outline: none;
+    left: 630px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    width: 220px;
+}
+
+
+/*/DESPLEGABLES*/
+
+@media screen and (max-width: 1220px) {
+    .header-content,
+    .container-footer footer {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .portada-arriva {
+        box-shadow: 0 4px 25px -22px black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 19%;
+        background: #fff;
+        box-shadow: 0 18px 25px -22px black;
+        z-index: 10;
+    }
+    .menus-de-arriva ul li {
+        height: 100%;
+        margin: -29px 3px;
+        left: -690px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+    .menus-de-arriva ul li a {
+        font-size: 10px;
+    }
+    .login_register {
+        position: absolute;
+        z-index: 10;
+        width: 40px;
+        height: 30px;
+        top: px;
+        left: 320px;
+    }
+    .bsv-logo {
+        height: 200px;
+        width: 260px;
+        top: 20px;
+    }
+    .iocono_de_busqueda1 {
+        position: fixed;
+        outline: none;
+        border-radius: 20px;
+        background-color: green;
+        left: 290px;
+        top: 110px;
+        width: 10px;
+    }
+    .ctn_buscador_de_productos {
+        position: fixed;
+        top: 110px;
+        outline: none;
+        left: 60px;
+        background-color: rgba(240, 255, 255, 0.438);
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 20px;
+        width: 230px;
+    }
+    /*los productos */
+    .resultado_de_procucto {
+        background-color: rgb(189, 189, 189);
+        width: 120px;
+        position: relative;
+        height: 150px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 19px;
+        box-shadow: 12px 9px 3px rgb(43, 63, 29);
+    }
+    .precio_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        background-color: rgb(148, 148, 148);
+        outline: none;
+        border: none;
+        box-shadow: 12px 4px 3px black;
+        font-size: 10px;
+        top: -15px;
+        left: 5px;
+    }
+    .nombre_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        outline: none;
+        border: none;
+        box-shadow: 8px 4px 3px black;
+        background-color: rgb(136, 136, 136);
+        font-size: 10px;
+        top: 3px;
+        left: 5px;
+    }
+    .estado_resultado button {
+        position: relative;
+        background-color: rgb(146, 146, 146);
+        outline: none;
+        border: none;
+        box-shadow: 4px 4px 3px black;
+        font-size: 8px;
+        top: -23px;
+        left: 65px;
+    }
+    .detalles_resultado h2 {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: solid;
+        cursor: pointer;
+    }
+    .detalles_resultado {
+        height: 85px;
+        position: relative;
+        font-size: 10px;
+    }
+    .lista_de_productos {
+        position: relative;
+        top: -780px;
+        width: 99.9%;
+        max-width: 99%;
+        height: 400%;
+        background-color: rgb(77, 184, 63);
+        background-clip: border-box;
+        border-radius: 10px;
+        border-color: blue;
+        border: 20px;
+    }
+}
+
+.ctn-indormacion-abajo {
+    position: relative;
+    top: 190px;
+    width: 100%;
+    z-index: 11;
+    background-color: rgb(24, 24, 24);
+    height: 300px;
+}
+
+.logo2-bsv {
+    width: 247px;
+    left: 1000px;
+    position: relative;
+}
+
+.ctn-seguridad {
+    position: absolute;
+}
+
+.Terminos-de-uso {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 10px
+}
+
+.politica-de-privacidad {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: -110px
+}
+
+.propositos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: -264px
+}
+
+.informacion {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 200px;
+    left: -344px
+}
+
+.donde-estamos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 600px
+}
+
+.noticias {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: 470px
+}
+
+.indice-bsv {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: 413px;
+}
+
+@media (max-width:450px) {
+    .ctn-indormacion-abajo {
+        position: relative;
+        top: 190px;
+        width: 100%;
+        z-index: 11;
+        background-color: rgb(24, 24, 24);
+        height: 200px;
+    }
+    .ctn-seguridad {
+        position: absolute;
+    }
+    .Terminos-de-uso {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 2px;
+        font-size: 14px;
+    }
+    .politica-de-privacidad {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        left: -107px;
+        top: 50px;
+        font-size: 14px;
+    }
+    .propositos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: -242px;
+        font-size: 14px;
+    }
+    .informacion {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 120px;
+        left: 4px
+    }
+    .donde-estamos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 50px;
+        left: 200px
+    }
+    .noticias {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 73px
+    }
+    .indice-bsv {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: 13px;
+    }
+    .logo2-bsv {
+        top: -17px;
+        width: 167px;
+        left: 100px;
+        position: relative;
+    }
+}

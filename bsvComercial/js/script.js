@@ -1,0 +1,3 @@
+function regresar() {
+    history.back();
+}

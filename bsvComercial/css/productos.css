@@ -1,0 +1,778 @@
+.ctn_contenedor_de_productos {
+    top: 0px;
+    transition: 100ms;
+    display: inline-flex;
+    position: relative;
+    padding-left: 13px;
+    padding-top: 20px;
+    z-index: 5;
+}
+
+.ctn_contenedor_de_productos:hover {
+    top: -2px;
+    display: inline-flex;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 3px;
+    z-index: 6;
+}
+
+.resultado_de_procucto {
+    background-color: rgb(101, 124, 100);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 4px;
+    border-color: rgba(73, 104, 172, 0.753);
+    border-radius: 10px;
+    box-shadow: 12px 7px 3px rgb(66, 66, 66);
+}
+
+.precio_resultado button {
+    position: relative;
+    top: 41px;
+    left: 10px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.nombre_resultado button {
+    position: relative;
+    top: -2px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.estado_resultado button {
+    position: relative;
+    top: -17px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    box-shadow: 12px 7px 3px black;
+}
+
+.detalles_resultado {
+    color: rgb(65, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    position: relative;
+    height: 100px;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .posts {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .posts {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+body {
+    background-color: rgba(163, 163, 163, 0.548);
+}
+
+.login_register {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+    left: 1200px;
+}
+
+.portada-arriva {
+    box-shadow: 0 4px 25px -22px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19%;
+    background: rgba(255, 255, 255, 0.836);
+    box-shadow: 0 18px 25px -22px black;
+    z-index: 10;
+}
+
+.texto-deportada {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-de-arriva {
+    position: absolute;
+    display: flex;
+}
+
+.menus-de-arriva {
+    padding: auto;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul {
+    padding-left: 900px;
+    margin-top: -160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus-de-arriva ul li {
+    height: 100%;
+    margin: -29px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bienvenidos {
+    justify-content: center;
+    z-index: 1;
+}
+
+.menu-seleted {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-seleted:hover {
+    background-color: aquamarine;
+    color: rgb(51, 255, 0);
+}
+
+.menus-listas a {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: rgb(78, 78, 78);
+    text-rendering: optimizeSpeed;
+    font-style: italic;
+    font-family: Arial;
+    max-height: 50px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.menus-listas a:hover {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+
+/*desde aqui se trata de el blog */
+
+
+/*desde aqui es el estylo de los productos*/
+
+.lista_de_productos {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(64, 102, 59);
+    border-radius: 10px;
+}
+
+.resultado_de_procucto {
+    background-color: rgb(189, 189, 189);
+    width: 200px;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 19px;
+    box-shadow: 12px 9px 3px rgb(43, 63, 29);
+}
+
+.precio_resultado button {
+    position: relative;
+    top: 43px;
+    left: 10px;
+    color: rgb(56, 56, 56);
+    background-color: rgb(148, 148, 148);
+    outline: none;
+    border: none;
+    box-shadow: 12px 4px 3px black;
+}
+
+.nombre_resultado button {
+    position: relative;
+    top: 6px;
+    left: 110px;
+    color: rgb(56, 56, 56);
+    outline: none;
+    border: none;
+    box-shadow: 8px 4px 3px black;
+    background-color: rgb(136, 136, 136);
+}
+
+.estado_resultado button {
+    position: relative;
+    top: -15px;
+    left: 110px;
+    background-color: rgb(146, 146, 146);
+    outline: none;
+    border: none;
+    box-shadow: 12px 4px 3px black;
+}
+
+.detalles_resultado h2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.detalles_resultado {
+    height: 100px;
+}
+
+
+/*DESPLEGABLES*/
+
+@media screen and (max-width: 1220px) {
+    .header-content,
+    .container-footer footer {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .portada-arriva {
+        box-shadow: 0 4px 25px -22px black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 19%;
+        background: #fff;
+        box-shadow: 0 18px 25px -22px black;
+        z-index: 10;
+    }
+    .menus-de-arriva ul li {
+        height: 100%;
+        margin: -29px 3px;
+        left: -690px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30px;
+    }
+    .menus-de-arriva ul li a {
+        font-size: 10px;
+    }
+    .login_register {
+        position: absolute;
+        z-index: 10;
+        width: 40px;
+        height: 30px;
+        top: px;
+        left: 320px;
+    }
+    .bsv-logo {
+        height: 200px;
+        width: 260px;
+        top: 20px;
+    }
+    /*los productos */
+    .ctn_contenedor_de_productos {
+        top: 0px;
+        display: inline-flex;
+        position: relative;
+        padding-left: 13px;
+        padding-top: 20px;
+        z-index: 5;
+    }
+    .resultado_de_procucto {
+        background-color: rgb(207, 207, 207);
+        width: 120px;
+        position: relative;
+        height: 150px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 19px;
+        box-shadow: 12px 9px 3px rgb(43, 63, 29);
+    }
+    .precio_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        background-color: rgb(148, 148, 148);
+        outline: none;
+        border: none;
+        box-shadow: 12px 4px 3px black;
+        font-size: 10px;
+        top: -15px;
+        left: 5px;
+    }
+    .nombre_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        outline: none;
+        border: none;
+        box-shadow: 8px 4px 3px black;
+        background-color: rgb(136, 136, 136);
+        font-size: 10px;
+        top: 3px;
+        left: 5px;
+    }
+    .estado_resultado button {
+        position: relative;
+        background-color: rgb(146, 146, 146);
+        outline: none;
+        border: none;
+        box-shadow: 4px 4px 3px black;
+        font-size: 8px;
+        top: -23px;
+        left: 65px;
+    }
+    .detalles_resultado h2 {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: solid;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .detalles_resultado {
+        height: 85px;
+        position: relative;
+        font-size: 10px;
+    }
+    .lista_de_productos {
+        position: absolute;
+        top: 200px;
+        width: 98%;
+        max-width: 99%;
+        background-color: rgb(64, 102, 59);
+        border-radius: 10px;
+    }
+    .link_servicios {
+        position: fixed;
+        left: 275px;
+        top: 84px;
+        padding-top: 4pt;
+        padding-bottom: 4pt;
+        color: rgb(78, 78, 78);
+        text-rendering: optimizeSpeed;
+        font-style: italic;
+        font-family: Arial;
+        max-height: 50px;
+        font-size: 10px;
+        background-color: rgb(230, 230, 230);
+        text-decoration: none;
+    }
+}
+
+.ctn_contenedor_de_productos {
+    top: 0px;
+    display: inline-flex;
+    position: relative;
+    padding-left: 13px;
+    padding-top: 20px;
+    z-index: 5;
+}
+
+.resultado_de_procucto {
+    background-color: rgb(194, 194, 194);
+    width: 269px;
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 19px;
+    box-shadow: 12px 9px 3px rgb(43, 63, 29);
+}
+
+.precio_resultado button {
+    position: relative;
+    color: rgb(56, 56, 56);
+    background-color: rgb(148, 148, 148);
+    outline: none;
+    border: none;
+    box-shadow: 12px 4px 3px black;
+    font-size: 20px;
+    top: 65px;
+    left: 5px;
+}
+
+.nombre_resultado button {
+    position: relative;
+    color: rgb(56, 56, 56);
+    outline: none;
+    border: none;
+    box-shadow: 8px 4px 3px black;
+    background-color: rgb(136, 136, 136);
+    font-size: 20px;
+    top: 59px;
+    left: 5px;
+}
+
+.estado_resultado button {
+    position: relative;
+    background-color: rgb(146, 146, 146);
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 3px black;
+    font-size: 20px;
+    top: 73px;
+    left: 145px;
+}
+
+.detalles_resultado h2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: solid;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.detalles_resultado {
+    height: 85px;
+    position: relative;
+    font-size: 10px;
+}
+
+.lista_de_productos {
+    position: absolute;
+    top: 200px;
+    width: 98%;
+    max-width: 99%;
+    background-color: rgb(64, 102, 59);
+    border-radius: 10px;
+}
+
+.adelante_ctn_atras {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+}
+
+.paginador {
+    z-index: 11;
+    top: 220px;
+    position: absolute;
+}
+
+.paginador ul {
+    padding: 15px;
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    z-index: 15;
+    justify-content: flex-end;
+}
+
+.paginador a,
+.pageselect {
+    text-decoration: none;
+    color: #09ff00;
+    border: solid 1px #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+}
+
+.paginador a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 87, 87);
+}
+
+.pageselect {
+    color: #FFF;
+    background-color: #228bca;
+}
+
+@media (max-width:450px) {
+    .ctn_contenedor_de_productos {
+        top: 0px;
+        display: inline-flex;
+        position: relative;
+        padding-left: 13px;
+        padding-top: 20px;
+        z-index: 5;
+    }
+    .resultado_de_procucto {
+        background-color: rgb(194, 194, 194);
+        width: 140px;
+        position: relative;
+        height: 150px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 9px;
+        box-shadow: 12px 9px 3px rgb(43, 63, 29);
+    }
+    .precio_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        background-color: rgb(148, 148, 148);
+        outline: none;
+        border: none;
+        box-shadow: 5px 2px 3px black;
+        font-size: 10px;
+        top: 37px;
+        left: 5px;
+    }
+    .nombre_resultado button {
+        position: relative;
+        color: rgb(56, 56, 56);
+        outline: none;
+        border: none;
+        box-shadow: 8px 4px 3px black;
+        background-color: rgb(136, 136, 136);
+        font-size: 10px;
+        top: -14px;
+        left: 5px;
+    }
+    .estado_resultado button {
+        position: relative;
+        background-color: rgb(146, 146, 146);
+        outline: none;
+        border: none;
+        box-shadow: 4px 4px 3px black;
+        font-size: 10px;
+        top: 15px;
+        left: 75px;
+    }
+    .detalles_resultado h2 {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: solid;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .detalles_resultado {
+        height: 85px;
+        position: relative;
+        font-size: 10px;
+    }
+    .lista_de_productos {
+        position: absolute;
+        top: 200px;
+        width: 98%;
+        max-width: 99%;
+        background-color: rgb(79, 107, 75);
+        border-radius: 10px;
+    }
+    .adelante_ctn_atras {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        background-color: black;
+        top: 0px;
+    }
+    .paginador {
+        z-index: 11;
+        top: -69px;
+        position: absolute;
+        width: auto;
+        max-width: 330px;
+        left: 35px;
+    }
+    .paginador ul {
+        padding: 15px;
+        list-style: none;
+        margin-top: 15px;
+        display: flex;
+        z-index: 15;
+        justify-content: flex-end;
+    }
+    .paginador a,
+    .pageselect {
+        text-decoration: none;
+        color: #09ff00;
+        border: solid 1px #ddd;
+        padding: 5px;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        width: 25px;
+    }
+    .paginador a:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(87, 87, 87);
+    }
+    .pageselect {
+        color: #FFF;
+        background-color: #228bca;
+    }
+}
+
+.ctn-indormacion-abajo {
+    position: relative;
+    top: 130px;
+    width: 100%;
+    z-index: 11;
+    background-color: rgb(24, 24, 24);
+    height: 300px;
+}
+
+.logo2-bsv {
+    width: 247px;
+    left: 1000px;
+    position: relative;
+}
+
+.ctn-seguridad {
+    position: absolute;
+}
+
+.Terminos-de-uso {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 10px
+}
+
+.politica-de-privacidad {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: -110px
+}
+
+.propositos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: -264px
+}
+
+.informacion {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 200px;
+    left: -344px
+}
+
+.donde-estamos {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 50px;
+    left: 600px
+}
+
+.noticias {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 100px;
+    left: 470px
+}
+
+.indice-bsv {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+    top: 150px;
+    left: 413px;
+}
+
+@media (max-width:450px) {
+    .ctn-indormacion-abajo {
+        position: relative;
+        top: 190px;
+        width: 100%;
+        z-index: 11;
+        background-color: rgb(24, 24, 24);
+        height: 200px;
+    }
+    .ctn-seguridad {
+        position: absolute;
+    }
+    .Terminos-de-uso {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 2px;
+        font-size: 14px;
+    }
+    .politica-de-privacidad {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        left: -107px;
+        top: 50px;
+        font-size: 14px;
+    }
+    .propositos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: -242px;
+        font-size: 14px;
+    }
+    .informacion {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 120px;
+        left: 4px
+    }
+    .donde-estamos {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 50px;
+        left: 200px
+    }
+    .noticias {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 80px;
+        left: 73px
+    }
+    .indice-bsv {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        top: 110px;
+        left: 13px;
+    }
+    .logo2-bsv {
+        top: -17px;
+        width: 167px;
+        left: 100px;
+        position: relative;
+    }
+}

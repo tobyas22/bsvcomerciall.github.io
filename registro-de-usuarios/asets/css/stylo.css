@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(156, 156, 156);
+}
+
+.cambio-de-pagina {
+    position: absolute;
+    left: 1100px;
+    top: 12px;
+}
+
+.pasar-formulario {
+    width: 90px;
+    color: rgb(199, 129, 129);
+}
+
+.parte-de-inicio {
+    display: flex;
+    top: 190px;
+    left: 320px;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+}
+
+.parte-de-inicio {
+    transition: 8000ms;
+    border-radius: 40px;
+}
+
+.email-input {
+    width: 350px;
+    height: 50px;
+    z-index: 5;
+    top: 50px;
+    left: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    outline: none;
+}
+
+.password-input {
+    width: 350px;
+    height: 50px;
+    z-index: 5;
+    top: 140px;
+    left: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    outline: none;
+}
+
+form img {
+    height: 500px;
+    width: 780px;
+    transition: 5s;
+    z-index: 2;
+    border-radius: 30px;
+}
+
+form div button {
+    z-index: 5;
+    position: absolute;
+    top: 250px;
+    left: 190px;
+    width: 100px;
+    height: 30px;
+}
+
+.inputs-form {
+    border-radius: 20px;
+    z-index: 7;
+    top: 100px;
+    left: 120px;
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    backdrop-filter: 30px;
+}
+
+.icono-device-pc {
+    display: block;
+    width: 110px;
+    height: 110px;
+}
+
+.icono-device-movil {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    left: 463px;
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .inputs-form {
+        border-radius: 10px;
+        z-index: 7;
+        top: 30px;
+        left: 40px;
+        width: 290px;
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.712);
+        position: absolute;
+        backdrop-filter: 30px;
+    }
+    form img {
+        left: 180px;
+        height: 340px;
+        width: 370px;
+        transition: 5s;
+        z-index: 2;
+        border-radius: 50px;
+    }
+    .email-input {
+        width: 240px;
+        height: 50px;
+        z-index: 5;
+        top: 50px;
+        left: 20px;
+        font-size: 15px;
+        border-radius: 10px;
+        position: absolute;
+        outline: none;
+    }
+    .password-input {
+        width: 240px;
+        height: 50px;
+        z-index: 5;
+        top: 140px;
+        left: 20px;
+        font-size: 15px;
+        border-radius: 10px;
+        position: absolute;
+        outline: none;
+    }
+    form div button {
+        z-index: 5;
+        position: absolute;
+        top: 250px;
+        left: 110px;
+    }
+    .icono-device-pc {
+        display: none;
+        width: 110px;
+        height: 110px;
+    }
+    .icono-device-movil {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 50px;
+        left: 463px;
+        display: block;
+    }
+    .cambio-de-pagina {
+        position: absolute;
+        left: 670px;
+        top: 12px;
+    }
+}

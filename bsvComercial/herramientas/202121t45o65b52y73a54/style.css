@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.error_mensaje {
+    position: relative;
+    left: 40%;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color: #ce7474;
+}
+
+.oction_ver_publicados {
+    position: absolute;
+    left: 70%;
+    top: 400px;
+}
+
+.oction_ver_publicados a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.oction_ver_publicados a:hover {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-family: arial;
+    font-size: 21px;
+}
+
+.funciono_mensage {
+    position: relative;
+    left: 30%;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #66ff00;
+    padding-left: 150px;
+}
+
+.todos_requeridos {
+    position: relative;
+    left: 31.5%;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    padding-left: 100px;
+    background-color: #161212;
+}
+
+.txt_mas_pequeño {
+    font-size: 30px;
+}
+
+.bsv_link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto_bsv_comercial {
+    position: relative;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: flex;
+    color: rgb(37, 17, 17);
+}
+
+.divisoria1 {
+    width: 800px;
+    border: solid 0.3px black;
+}
+
+.condiciones_de_usu {
+    position: absolute;
+    font-size: 40px;
+    top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombres_input {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+}
+
+.nombres_input h3 {
+    position: relative;
+    z-index: 5;
+    top: -19px;
+    margin-top: 80px;
+}
+
+.input_txt {
+    position: relative;
+    width: 95%;
+    height: 42px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 25px;
+    z-index: 6;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    bottom: solid 2px black;
+}
+
+.ctn_forms {
+    padding: 20px 70px;
+    position: absolute;
+    left: 370px;
+    border: solid 4px black;
+    border-radius: 50px;
+    top: 320px;
+    background-color: rgb(92, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurar_b {
+    position: relative;
+    left: 60%;
+}
+
+@media (max-width:450px) {
+    body {
+        background-color: #eeeeee;
+    }
+    .txt_mas_pequeño {
+        font-size: 19px;
+    }
+    .texto_bsv_comercial {
+        position: relative;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-display: flex;
+        color: rgb(37, 17, 17);
+    }
+    .divisoria1 {
+        width: 340px;
+        border: solid 0.3px black;
+    }
+    .condiciones_de_usu {
+        position: absolute;
+        font-size: 20px;
+        top: 170px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nombres_input {
+        position: absolute;
+        z-index: 5;
+        top: 0px;
+    }
+    .nombres_input h3 {
+        position: relative;
+        z-index: 5;
+        top: -19px;
+        margin-top: 80px;
+    }
+    .oction_ver_publicados {
+        position: absolute;
+        left: 0px;
+        top: 90px;
+        z-index: 99;
+    }
+    .input_txt {
+        position: relative;
+        width: 95%;
+        height: 42px;
+        padding: 10px 10px;
+        margin-top: 42px;
+        border-radius: 30px;
+        border: none;
+        font-size: 20px;
+        outline: none;
+        z-index: 6;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        bottom: solid 2px black;
+    }
+    .ctn_forms {
+        width: 330px;
+        padding: 10px 10px;
+        position: absolute;
+        left: 1px;
+        border: solid 4px black;
+        border-radius: 50px;
+        top: 320px;
+        background-color: rgb(160, 160, 160);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .restaurar_b {
+        position: relative;
+        left: 40%;
+        transform: translateZ(30px);
+    }
+}

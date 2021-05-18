@@ -1,0 +1,25 @@
+.portada {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(189, 189, 189);
+}
+
+.input-buscar {
+    width: 800px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 100%;
+    box-shadow: 0 10px 25px -2px black;
+}
+
+.boton {
+    width: 70px;
+    height: 40px;
+    font-size: 80%;
+    border-radius: 30px;
+}
+
+.ctn-icon-searh {}
